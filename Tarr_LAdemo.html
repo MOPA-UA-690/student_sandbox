@@ -1,1 +1,22 @@
-This will be used for my demonstration today.
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>A simple map</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:50%; }
+</style>
+</head>
+<body>
+<div id='map'></div>
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoiYXZhdGFycjgiLCJhIjoiWldydHlFTSJ9.4pYrWRaSp-BBRl1j1Xsphw';
+var map = L.mapbox.map('map', 'avatarr8.jj6cna2e')
+    .setView([40, -74.50], 9);
+</script>
+</body>
+</html>
