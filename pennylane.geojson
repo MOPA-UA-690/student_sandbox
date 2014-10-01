@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2227" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 15048.000000, "CNN": 12910000.000000, "STREET": "PENNY", "ST_TYPE": "LANE", "FROM_ST": "DIAMOND ST", "TO_ST": "UNNAMED #011", "F_NODE_CNN": 33402000.000000, "T_NODE_CNN": 33400000.000000, "LF_FADD": 0.000000, "LF_TOADD": 0.000000, "RT_FADD": 0.000000, "RT_TOADD": 0.000000, "SHAPE__Len": 643.999549 }, "geometry": { "type": "LineString", "coordinates": [ [ 6002288.489614844322205, 2096521.663900673389435 ], [ 6002329.87043759226799, 2096525.250507667660713 ], [ 6002728.29188483953476, 2096073.340650334954262 ] ] } }
+]
+}
